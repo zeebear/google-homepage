@@ -1,3 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background-color: white;
+}
+
+.wrapper {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 li {
   list-style: none;
 }
+
+#logo {
+  width: 100vw;
+  height: 92px;
+  background-image: url("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png");
+  background-position: center;
+  background-size: 272px 92px;
+  background-repeat: no-repeat;
+  padding-top: 30vh;
+}
+/* %ask&Y0U$H@ */
