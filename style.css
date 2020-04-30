@@ -17,6 +17,11 @@ li {
   list-style: none;
 }
 
+#main {
+  margin-top: 20vh;
+  width: 100vw;
+}
+
 #logo {
   width: 100vw;
   height: 92px;
@@ -24,6 +29,27 @@ li {
   background-position: center;
   background-size: 272px 92px;
   background-repeat: no-repeat;
-  padding-top: 30vh;
+  /*margin-top: 20vh;*/
+  margin-bottom: 5vh;
 }
+
+#formdiv {
+  width: 30%;
+  margin: 0 auto;
+}
+
+input[type=text] {
+  width: 100%;
+  background-color: #fff;
+  background-image: url("search.png")
+  background-repeat:no-repeat;
+  background-position:6px;
+}
+
+/*#search-box {
+  border-radius: 25px;
+  border-width: 10px;
+  border-color: hotpink;
+}*/
+
 /* %ask&Y0U$H@ */
