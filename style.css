@@ -27,14 +27,23 @@ li {
   font-family: sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #5f6368;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 #top-menu, #bottom-menu {
   padding: 3vh 12px;
 }
 
 #top-menu {
   font-size: smaller;
-  /*padding: 3vh 8px;*/
   margin-bottom: 23vh;
+  color: #212121;
 }
 
 #thanks {
@@ -47,6 +56,15 @@ li {
 
 .float-right {
   float: right;
+}
+
+#grid {
+  color: #727272;
+}
+
+#grid a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 #main {
