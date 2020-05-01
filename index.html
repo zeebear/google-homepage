@@ -8,32 +8,33 @@
 <body>
   <div class="wrapper">
     <nav>
-      <ul>
-        <li>Gmail</li>
-        <li>Images</li>
-        <li>[grid]</li>
+      <ul id="top-menu">
+        <li class="float-left">About</li>
+        <li class="float-left">Store</li>
+        <li id="thanks">Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> (magnifying glass) and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> (microphone) from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></li>
+        <li class="float-right"><button id="sign-in">Sign in</button></li>
+        <li class="float-right">[grid]</li>
+        <li class="float-right">Images</li>
+        <li class="float-right">Gmail</li>
       </ul>
     </nav>
     <div id="main">
       <div id="logo"></div>
       <div id="formdiv">
-        <form action="" method="" name="search-form">
-          <div id="search-box"><input type="text" name="search-form" id="search"></div>
-          <div><input type="button" value="Google Search" name="search-form"><input type="button" value="I'm feeling lucky" name="search-form"></div>
+        <form action="" method="get" id="search-form">
+          <input type="text" id="search">
+          <button type="submit" value="google">Google Search</button><button type="submit" value="lucky">I'm feeling lucky</button>
         </form>
       </div>
     </div>
     <footer>
-      <ul>
-        <li>Advertising</li>
-        <li>Business</li>
-        <li>How Search works</li>
-      </ul>
-      <div id="thanks">Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> (magnifying glass) and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> (microphone) from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></div>
-      <ul>
-        <li>Privacy</li>
-        <li>Terms</li>
-        <li>Settings</li>
+      <ul id="bottom-menu">
+        <li class="float-left">Advertising</li>
+        <li class="float-left">Business</li>
+        <li class="float-left float-left-longer">How Search works</li>
+        <li class="float-right">Settings</li>
+        <li class="float-right">Terms</li>
+        <li class="float-right">Privacy</li>
       </ul>
     </footer>
   </div>

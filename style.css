@@ -13,12 +13,43 @@ body {
   border: 0;
 }
 
-li {
+ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  text-align: center;
+  color: #5f6368;
+  width: 60px;
+  font-family: sans-serif;
+}
+
+#top-menu, #bottom-menu {
+  padding: 3vh 12px;
+}
+
+#top-menu {
+  font-size: smaller;
+  /*padding: 3vh 8px;*/
+  margin-bottom: 23vh;
+}
+
+#thanks {
+  font-size: xx-small;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
 }
 
 #main {
-  margin-top: 20vh;
   width: 100vw;
 }
 
@@ -41,15 +72,44 @@ li {
 input[type=text] {
   width: 100%;
   background-color: #fff;
-  background-image: url("search.png")
-  background-repeat:no-repeat;
-  background-position:6px;
+  background-image: url("../search.png")
+  background-repeat: no-repeat;
+  background-position: 6px;
+  margin: 3px 0;
 }
 
-/*#search-box {
-  border-radius: 25px;
-  border-width: 10px;
-  border-color: hotpink;
-}*/
+#buttons {
+  width: 80%;
+  margin: 0 25%;
+  border: 5px solid hotpink;
+}
 
-/* %ask&Y0U$H@ */
+button {
+  background-color: #fff;
+  color: black;
+}
+
+footer {
+  background-color: #f2f2f2;
+}
+
+footer li {
+  width: 90px;
+}
+
+#bottom-menu .float-left-longer {
+  width: 130px;
+}
+
+#bottom-menu .float-right {
+  width: 70px;
+}
+
+#bottom-menu {
+  margin-top: 38vh;
+  /*padding-left: 8px;*/
+  font-size: smaller;
+}
+
+
+  /* %ask&Y0U$H@ */
