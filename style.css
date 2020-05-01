@@ -94,17 +94,13 @@ input[type=text] {
   background-repeat: no-repeat;
   background-position: 6px;
   margin: 3px 0;
-}
-
-#buttons {
-  width: 80%;
-  margin: 0 25%;
-  border: 5px solid hotpink;
+  border-radius: 25px;
 }
 
 button {
   background-color: #fff;
   color: black;
+  border-radius: 5px;
 }
 
 footer {
