@@ -36,11 +36,8 @@ a:hover {
   text-decoration: underline;
 }
 
-#top-menu, #bottom-menu {
-  padding: 3vh 12px;
-}
-
 #top-menu {
+  padding: 3vh 12px;
   font-size: smaller;
   margin-bottom: 23vh;
   color: #212121;
@@ -78,11 +75,10 @@ a:hover {
   background-position: center;
   background-size: 272px 92px;
   background-repeat: no-repeat;
-  /*margin-top: 20vh;*/
   margin-bottom: 5vh;
 }
 
-#formdiv {
+#searchdiv {
   width: 30%;
   margin: 0 auto;
 }
@@ -90,11 +86,13 @@ a:hover {
 input[type=text] {
   width: 100%;
   background-color: #fff;
-  background-image: url("../search.png")
-  background-repeat: no-repeat;
-  background-position: 6px;
   margin: 3px 0;
   border-radius: 25px;
+}
+
+#buttons {
+  width: 18%;
+  margin: 0 auto;
 }
 
 button {
@@ -120,8 +118,8 @@ footer li {
 }
 
 #bottom-menu {
+  padding: 3vh 12px 6vh 12px;
   margin-top: 38vh;
-  /*padding-left: 8px;*/
   font-size: smaller;
 }
 
