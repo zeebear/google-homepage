@@ -39,7 +39,7 @@ a:hover {
 #top-menu {
   padding: 3vh 12px;
   font-size: smaller;
-  margin-bottom: 23vh;
+  margin-bottom: 16vh;
   color: #212121;
 }
 
@@ -75,19 +75,54 @@ a:hover {
   background-position: center;
   background-size: 272px 92px;
   background-repeat: no-repeat;
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
 }
 
 #searchdiv {
-  width: 30%;
+  width: 584px;
+  height: 32px;
   margin: 0 auto;
+  border-radius: 25px;
+  border: 1px solid #dfe1e5;
+  padding: 5px;
+}
+
+#searchdiv:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+#searchleft {
+  width: 20px;
+  height: 20px;
+  margin: 6px;
+  background-color: transparent;
+  background-image: url('search.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
 }
 
 input[type=text] {
-  width: 100%;
-  background-color: #fff;
-  margin: 3px 0;
-  border-radius: 25px;
+  background-color: transparent;
+  /*border-radius: 25px;*/
+  border: none;
+  color: black;
+  font-size: 20px;
+  width: 500px;
+  float: right;
+}
+
+#searchright {
+  background-color: transparent;
+  background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  margin: 5px;
+  float: right;
 }
 
 #buttons {
