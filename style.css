@@ -121,7 +121,7 @@ input[type=text] {
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
-  margin: 5px;
+  margin: 5px 8px 5px 5px;
   float: right;
 }
 
