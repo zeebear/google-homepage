@@ -11,6 +11,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: arial, sans-serif;
 }
 
 ul {
@@ -24,7 +25,6 @@ li {
   text-align: center;
   color: #5f6368;
   width: 60px;
-  font-family: sans-serif;
 }
 
 a {
@@ -58,6 +58,7 @@ a:hover, button:hover {
 
 #grid {
   color: #727272;
+  font-size: large;
 }
 
 #grid a:hover {
@@ -101,17 +102,7 @@ a:hover, button:hover {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  float: left;
-}
-
-input[type=text] {
-  background-color: transparent;
-  border: none;
-  padding: 6px;
-  color: black;
-  font-size: 16px;
-  width: 500px;
-  float: right;
+  border: 2px solid green;
 }
 
 #searchright {
@@ -123,19 +114,37 @@ input[type=text] {
   width: 24px;
   height: 24px;
   margin: 5px 8px 5px 5px;
-  float: right;
-  border: none;
+  border: 2px solid blue;
+}
+
+input[type=text] {
+  background-color: transparent;
+  border: 2px solid red;
+  padding: 6px;
+  color: black;
+  font-size: 16px;
+  width: 490px;
 }
 
 #buttons {
-  width: 18%;
+  width: 30%;
   margin: 0 auto;
 }
 
-button {
-  background-color: #fff;
-  color: black;
+.search-button {
+  background-color: #f4f4f4;
+  color: #5f6368;
   border-radius: 5px;
+  border: 2px solid hotpink;
+  font-size: 14px;
+  margin: 20px;
+  height: 36px;
+
+}
+
+.search-button:hover {
+  border: 1px solid #dfe1e5;
+  text-decoration: none;
 }
 
 footer {
