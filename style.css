@@ -32,8 +32,9 @@ a {
   color: #5f6368;
 }
 
-a:hover {
+a:hover, button:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 #top-menu {
